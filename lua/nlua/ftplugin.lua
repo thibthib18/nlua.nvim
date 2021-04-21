@@ -46,5 +46,4 @@ return function()
   --      mapper('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>')
   --    end
   -- TODO: Customize keymap
-  vim.api.nvim_buf_set_keymap(0, 'n', 'K', '<cmd>lua nlua.keyword_program()<CR>', {noremap = true, silent = true})
 end
